@@ -5,9 +5,9 @@ const banner = document.querySelector(".banner")
 
 btn.addEventListener('click', showInputValue);
 function showInputValue(e){
-    // console.log(input.value);
     e.preventDefault();
     h1.innerHTML = input.value
+    alert("dbhjdj")
 }
 
 
